@@ -1,0 +1,68 @@
+<div class="hello">
+    <div class="topNav">
+        <div class="topNavLeft fl">
+            <div class="down">下载APP</div>
+            <div class="">北京 多云 25</div> 
+        </div>
+        <el-input></el-input>
+        <div class="topNavRight fr">
+            <ul>
+                <li>登陆</li>
+                <li>反馈</li>
+                <li>侵权投诉</li>
+                <li>头条产品</li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="today-left fl">
+                <div>
+                    <img src="https://s3.pstatp.com/toutiao/static/img/logo.201f80d.png" alt="">
+                </div>
+                <ul>
+                    <li v-for="name in sideList">{{ name.name }}</li>
+                </ul>
+            </div>
+            <div class="today-center fl">
+                <div class="topBanner">
+                    <ul class="picture fl">
+                        <!-- <li></li> -->
+                        <li v-for="topBanner in topBanners" :class="topBanner.class"><img :src="topBanner.image_url" alt=""><p class="">{{topBanner.title}}</p></li> 
+                        <!-- <p>{{src.title}}</p>  -->
+                    </ul>
+                    <ul class="tab fr">
+                          <!-- <li v-for="top in topBanner"><a href="#">要闻</a></li>   -->
+                        <li>要闻</li> 
+                        <li>社会</li> 
+                        <li>娱乐</li> 
+                        <li>体育</li> 
+                        <li>军事</li> 
+                        <li>明星</li> 
+                    </ul>
+                </div>
+                <div class="news">
+                    <ul>
+                        <li class="clearfix" v-for="newsList in newsLists">
+                            <div class="article_item clearfix">
+                                <img class="fl" :src="newsList.image_url" alt="">
+                                <div class="text">
+                                   <p>{{newsList.title}}</p> 
+                                   <div class="desc clearfix">
+                                        <div class="tip">{{newsList.tag}}</div>
+                                        <div><img :src="newsList.media_avatar_url" alt=""></div>
+                                        <div class="userName">{{newsList.source}} ⋅</div>
+                                        <div> {{newsList.comments}}评论 ⋅</div>
+                                        <div>22分钟前</div>
+                                   </div>
+                                </div> 
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="today-right fr"></div>
+        </div>
+    </div> 
+</div>
+
