@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:23:12.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tYf-EGOcGO_HFVx1B7s4" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:51:10.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="E5YCa-rGAYEjKyHwbMm9" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="智能读题">
     <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1050,7 +1050,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TJg7zNo-WYrqwlwAQ0Ag" name="题库-随堂练习">
-    <mxGraphModel dx="1823" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2178" dy="1918" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1266,25 +1266,27 @@
           <mxGeometry x="490" y="230" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-8" value="后台配置&lt;br&gt;答案是否可见&lt;br&gt;默认一直可见" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="308" width="96" height="40" as="geometry" />
+          <mxGeometry x="1420" y="320" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-9" value="答题卡&lt;br&gt;提交列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="388" width="96" height="40" as="geometry" />
+          <mxGeometry x="1420" y="388" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=20;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-8" target="6nEZxG12iNyYv-f4AWA_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-11" target="6nEZxG12iNyYv-f4AWA_-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-11" value="未批改" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1300" y="238" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="6nEZxG12iNyYv-f4AWA_-12" value="答题卡&lt;br&gt;（不含对错）&lt;br&gt;答题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="308" width="96" height="40" as="geometry" />
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=18;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1467.7142857142858" y="320" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-13" value="待订正" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1420" y="238" width="96" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="6nEZxG12iNyYv-f4AWA_-14" value="答题卡&lt;br&gt;（含对错）&lt;br&gt;答题" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="308" width="96" height="40" as="geometry" />
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-16" target="6nEZxG12iNyYv-f4AWA_-8">
           <mxGeometry relative="1" as="geometry" />
