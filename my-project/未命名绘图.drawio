@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:15:08.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="DNNrr9ry1h-HS7Dq8Bqk" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:16:10.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="o4-6Qb7aiaM_Eg00HzhC" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="智能读题">
     <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1050,7 +1050,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TJg7zNo-WYrqwlwAQ0Ag" name="题库-随堂练习">
-    <mxGraphModel dx="2547" dy="2122" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2547" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1291,6 +1291,9 @@
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-16" value="批对" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1540" y="238" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-20" value="新增部分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-329" width="96" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
