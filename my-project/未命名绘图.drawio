@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-27T08:16:10.971Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="o4-6Qb7aiaM_Eg00HzhC" version="20.5.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2022-10-27T08:23:12.555Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tYf-EGOcGO_HFVx1B7s4" version="20.5.1" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="智能读题">
     <mxGraphModel dx="946" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1050,7 +1050,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TJg7zNo-WYrqwlwAQ0Ag" name="题库-随堂练习">
-    <mxGraphModel dx="2547" dy="2018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1823" dy="1661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1294,6 +1294,51 @@
         </mxCell>
         <mxCell id="6nEZxG12iNyYv-f4AWA_-20" value="新增部分" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-329" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-22" target="6nEZxG12iNyYv-f4AWA_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-22" value="驳回" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="600" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-23" target="6nEZxG12iNyYv-f4AWA_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-23" value="批错" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="680" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-27" value="修改&lt;br&gt;该用户&lt;br&gt;该commit_id&lt;br&gt;state 状态" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="340" y="665" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-30" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-31" value="待订正" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="640" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="1" source="6nEZxG12iNyYv-f4AWA_-32" target="6nEZxG12iNyYv-f4AWA_-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-32" value="批对" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="760" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-35" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;批改端&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="105" y="530" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-36" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;随堂练习&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="804" y="550" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-37" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;编辑器&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="804" y="630" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-38" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;fontSize=18;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="784" y="555" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-39" value="提交&lt;br&gt;接口变化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="630" width="96" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6nEZxG12iNyYv-f4AWA_-40" value="首屏接口&lt;br&gt;支持判断下游去哪儿" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="970" y="550" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
