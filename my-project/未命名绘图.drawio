@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-29T09:23:08.738Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="gI65OofPtEr4d-N5w9YO" version="20.7.4" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2022-12-29T09:26:30.772Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="sE_eTm_9rMKal63xmI93" version="20.7.4" type="github" pages="8">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="智能读题">
     <mxGraphModel dx="954" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1775,7 +1775,7 @@
         <mxCell id="2GCCH6Hj_ZBgV6qel9D5-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2GCCH6Hj_ZBgV6qel9D5-49" target="2GCCH6Hj_ZBgV6qel9D5-51">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2GCCH6Hj_ZBgV6qel9D5-49" value="设备检测" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="2GCCH6Hj_ZBgV6qel9D5-49" value="设备检测组件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="295" y="500" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GCCH6Hj_ZBgV6qel9D5-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2GCCH6Hj_ZBgV6qel9D5-51" target="2GCCH6Hj_ZBgV6qel9D5-54">
@@ -1784,8 +1784,8 @@
         <mxCell id="2GCCH6Hj_ZBgV6qel9D5-51" value="base-三方sdk-拍照" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="270" y="580" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2GCCH6Hj_ZBgV6qel9D5-54" value="拍照权限成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="650" width="90" height="50" as="geometry" />
+        <mxCell id="2GCCH6Hj_ZBgV6qel9D5-54" value="UI： 拍照权限失败及引导" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="650" width="100" height="50" as="geometry" />
         </mxCell>
         <mxCell id="2GCCH6Hj_ZBgV6qel9D5-56" value="拍照权限成功" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="397.5" y="650" width="90" height="50" as="geometry" />
