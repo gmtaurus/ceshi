@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-04T06:46:45.646Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="b8V5Hr-q2ZhzDm8PFlME" version="21.0.8" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2023-05-08T09:34:41.294Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="QOVf2jSYssKLpox4LAba" version="21.2.7" type="github" pages="9">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -443,7 +443,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ghaUq0g3Tcl_s4R1Ak4p" name="题库-组卷">
-    <mxGraphModel dx="4770" dy="2645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="954" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -980,7 +980,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TJg7zNo-WYrqwlwAQ0Ag" name="题库-随堂练习">
-    <mxGraphModel dx="2099" dy="1874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1781" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1272,16 +1272,16 @@
         <mxCell id="6nEZxG12iNyYv-f4AWA_-40" value="首屏接口&lt;br&gt;支持判断下游去哪儿" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="-440" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="LDyyC5Yj6bqXMXceZghx-1" value="单题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LDyyC5Yj6bqXMXceZghx-1" value="单题" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="750" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_B4pWPPVa-j1LdKyCv3-1" value="客观题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P_B4pWPPVa-j1LdKyCv3-1" value="客观题" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="670" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_B4pWPPVa-j1LdKyCv3-2" value="主观题" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P_B4pWPPVa-j1LdKyCv3-2" value="主观题" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="750" width="96" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="P_B4pWPPVa-j1LdKyCv3-3" value="复合题&lt;br&gt;（多客观）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="P_B4pWPPVa-j1LdKyCv3-3" value="复合题&lt;br&gt;（多客观）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="830" width="96" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -1899,6 +1899,14 @@
         <mxCell id="-pDCWexchRhWkxyNgMvZ-3" value="角色：&lt;br&gt;我和老师&lt;br&gt;消息类型：图、文、音、视频、自定义" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="1370" width="230" height="50" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BcNLu36sDyhtf2prsfqe" name="物品识别">
+    <mxGraphModel dx="954" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
