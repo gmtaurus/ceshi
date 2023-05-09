@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T10:39:49.263Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="5KBMy6ItvLwUEuHVRY4X" version="21.2.9" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2023-05-09T10:42:15.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zZZ7jrxFPkjEm-Aw2m6Z" version="21.2.9" type="github" pages="9">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2035,6 +2035,9 @@
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-57" value="分类信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1870" width="90" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="r7MSTPPSrBeGhtPRSvvh-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="mHS5Xnpr9bCBJQyqe5xO-58" target="r7MSTPPSrBeGhtPRSvvh-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-58" value="摄像头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="1940" width="90" height="40" as="geometry" />
         </mxCell>
@@ -2355,17 +2358,26 @@
         <mxCell id="r7MSTPPSrBeGhtPRSvvh-91" value="api 获取模型数据&lt;br&gt;模型 &amp;amp;&amp;amp; 用户信息 &amp;amp;&amp;amp;分享图片等" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry y="1660" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="r7MSTPPSrBeGhtPRSvvh-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r7MSTPPSrBeGhtPRSvvh-93" target="r7MSTPPSrBeGhtPRSvvh-97">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="r7MSTPPSrBeGhtPRSvvh-93" value="本讲次没有模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1620" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r7MSTPPSrBeGhtPRSvvh-103" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r7MSTPPSrBeGhtPRSvvh-95" target="r7MSTPPSrBeGhtPRSvvh-97">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="r7MSTPPSrBeGhtPRSvvh-95" value="有模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="1690" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="r7MSTPPSrBeGhtPRSvvh-97" value="SDK-初始化模型数据&lt;br&gt;Promise方法" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="460" y="1620" width="130" height="40" as="geometry" />
+          <mxGeometry x="460" y="1690" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r7MSTPPSrBeGhtPRSvvh-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="r7MSTPPSrBeGhtPRSvvh-99" target="r7MSTPPSrBeGhtPRSvvh-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="r7MSTPPSrBeGhtPRSvvh-99" value="摄像头无权限" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1940" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="r7MSTPPSrBeGhtPRSvvh-100" value="端外交互？" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="1940" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
