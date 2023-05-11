@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T05:47:49.525Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="gxpJSWQNfFH0sJ_qXqEk" version="21.2.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-05-11T05:48:10.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="zCaJs_ese46mj4qz2FnG" version="21.2.9" type="github" pages="10">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2076,20 +2076,16 @@
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-76" value="是否有模型数据" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="10" y="-160" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="mHS5Xnpr9bCBJQyqe5xO-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mHS5Xnpr9bCBJQyqe5xO-79" target="mHS5Xnpr9bCBJQyqe5xO-83" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="mHS5Xnpr9bCBJQyqe5xO-79" value="api 获取分类数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry y="40" width="110" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="mHS5Xnpr9bCBJQyqe5xO-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="mHS5Xnpr9bCBJQyqe5xO-80" target="mHS5Xnpr9bCBJQyqe5xO-79" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mHS5Xnpr9bCBJQyqe5xO-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="mHS5Xnpr9bCBJQyqe5xO-83" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-40" y="60" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-80" value="添加分类页面" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-130" y="40" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-82" value="UI：【分类卡片组件】&lt;br&gt;+&lt;br&gt;空白【分类卡片组件】" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="-20" width="130" height="55" as="geometry" />
+          <mxGeometry x="170" y="-20" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mHS5Xnpr9bCBJQyqe5xO-83" target="mHS5Xnpr9bCBJQyqe5xO-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2108,10 +2104,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-83" value="是否有分类数据&lt;br&gt;数量" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="150" y="30" width="110" height="60" as="geometry" />
+          <mxGeometry y="30" width="110" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-85" value="UI：【分类卡片组件】" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="320" y="85" width="130" height="40" as="geometry" />
+          <mxGeometry x="170" y="85" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mHS5Xnpr9bCBJQyqe5xO-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mHS5Xnpr9bCBJQyqe5xO-91" target="mHS5Xnpr9bCBJQyqe5xO-92" edge="1">
           <mxGeometry relative="1" as="geometry" />
