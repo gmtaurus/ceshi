@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-11T06:41:00.984Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="Z6-ooLxJkw8IhBnkQ0zw" version="21.2.9" type="github" pages="10">
+<mxfile host="app.diagrams.net" modified="2023-05-11T06:49:45.794Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="z982f1cq6bMu-NemhXur" version="21.2.9" type="github" pages="10">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2872,7 +2872,7 @@
         <mxCell id="28nnJnyv5O2VAmeb1tFA-48" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="20" y="1810" width="20" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="28nnJnyv5O2VAmeb1tFA-50" value="bridge：小节完成，金币发放" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="28nnJnyv5O2VAmeb1tFA-49" parent="1">
+        <mxCell id="28nnJnyv5O2VAmeb1tFA-50" value="bridge：小节完成，接口金币发放" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="28nnJnyv5O2VAmeb1tFA-49" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="210" y="1685" as="sourcePoint" />
           </mxGeometry>
@@ -2893,6 +2893,9 @@
         </mxCell>
         <mxCell id="RsLMYFjan5ZFgCFjEgSs-8" value="&lt;font color=&quot;#ff3333&quot;&gt;是否有后端接口&lt;br&gt;前端完全直传&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="1470" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RsLMYFjan5ZFgCFjEgSs-9" value="&lt;font color=&quot;#ff3333&quot;&gt;没有该接口，后续处理？&lt;/font&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1810" width="180" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
