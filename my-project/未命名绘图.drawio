@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T10:56:46.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ik-xksQ534zcF_3XI8R8" version="21.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-15T11:08:54.203Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="_Tb13RdqLnUJtgEYZatT" version="21.6.9" type="github" pages="11">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2918,46 +2918,76 @@
           <mxGeometry x="10" y="210" width="80" height="26" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-1" value="多题目信息获取（类似一个试卷也可以是一个单题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="630" width="470" height="40" as="geometry" />
+          <mxGeometry x="144" y="840" width="470" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-2" value="题目说明" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="710" width="80" height="40" as="geometry" />
+          <mxGeometry x="334" y="920" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-3" value="题目代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="710" width="90" height="40" as="geometry" />
+          <mxGeometry x="415" y="920" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-4" value="游戏配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="710" width="130" height="40" as="geometry" />
+          <mxGeometry x="144" y="920" width="126" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-5" value="场景动作&lt;br&gt;提交、保存等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="510" y="670" width="110" height="40" as="geometry" />
+          <mxGeometry x="504" y="880" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RfujdPqhWs3596QnyuMz-6" value="多题目信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="670" width="361" height="40" as="geometry" />
+        <mxCell id="RfujdPqhWs3596QnyuMz-6" value="多题目、单题信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="880" width="361" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RfujdPqhWs3596QnyuMz-7" value="单题纬度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="70" y="715" width="60" height="30" as="geometry" />
+        <mxCell id="RfujdPqhWs3596QnyuMz-7" value="前台" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="64" y="925" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-8" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="441" y="710" width="70" height="40" as="geometry" />
+          <mxGeometry x="270" y="920" width="65" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RfujdPqhWs3596QnyuMz-9" value="游戏配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="810" width="180" height="40" as="geometry" />
+        <mxCell id="RfujdPqhWs3596QnyuMz-9" value="单题游戏配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="585" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-10" value="游戏模版" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="850" width="80" height="40" as="geometry" />
+          <mxGeometry x="144" y="625" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-11" value="游戏api配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="850" width="100" height="40" as="geometry" />
+          <mxGeometry x="224" y="625" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-12" value="move" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="890" width="40" height="40" as="geometry" />
+          <mxGeometry x="224" y="665" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-13" value="turnRight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="890" width="60" height="40" as="geometry" />
+          <mxGeometry x="264" y="665" width="60" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RfujdPqhWs3596QnyuMz-14" value="显示在代码编辑区域&lt;br&gt;或者走前端配置map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="355" y="855" width="135" height="30" as="geometry" />
+          <mxGeometry x="349" y="630" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-15" value="后台配置" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="610" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-17" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="920" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-19" value="编译运行服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="960" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-18" value="游戏引擎" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="960" width="126" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-20" value="课堂服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="960" width="115" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-21" value="消息通信" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="960" width="70" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-22" value="场景：&lt;br&gt;preload、game&lt;br&gt;&lt;br&gt;精灵：&lt;br&gt;可控制的角色（一个）&lt;br&gt;精灵属性&lt;br&gt;（位置信息等）&lt;br&gt;&lt;br&gt;标准动作库：&lt;br&gt;moveForward&lt;br&gt;moveBackward&lt;br&gt;turnRight&lt;br&gt;turnLeft&lt;br&gt;&lt;br&gt;window.game" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="144" y="1070" width="126" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-24" value="编译运行" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="1070" width="165" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-23" value="消息中心&lt;br&gt;解析指令、参数等信息&lt;br&gt;调用game api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1070" width="70" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-25" value="提交&lt;br&gt;保存等&lt;br&gt;作品信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="1070" width="115" height="250" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
