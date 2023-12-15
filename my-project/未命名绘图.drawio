@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-15T10:40:35.355Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4WWqiXrfynKJZAsmKx89" version="21.6.9" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-15T10:56:46.679Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="ik-xksQ534zcF_3XI8R8" version="21.6.9" type="github" pages="11">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2900,11 +2900,65 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="qalKWA76xL_kt-INR3gE" name="游戏化">
+  <diagram id="qalKWA76xL_kt-INR3gE" name="实时语音转文字">
     <mxGraphModel dx="954" dy="521" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="qq8FXvcer2NhzDt034TJ-1" value="题目" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="119" y="100" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qq8FXvcer2NhzDt034TJ-2" value="游戏引擎" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="289" y="100" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qq8FXvcer2NhzDt034TJ-4" value="server" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="480" y="100" width="100" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="qq8FXvcer2NhzDt034TJ-5" value="start" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" parent="1" vertex="1">
+          <mxGeometry x="10" y="210" width="80" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-1" value="多题目信息获取（类似一个试卷也可以是一个单题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="630" width="470" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-2" value="题目说明" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="710" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-3" value="题目代码" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="710" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-4" value="游戏配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="710" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-5" value="场景动作&lt;br&gt;提交、保存等" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="670" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-6" value="多题目信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="670" width="361" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-7" value="单题纬度" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="715" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-8" value="其他" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="441" y="710" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-9" value="游戏配置信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="810" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-10" value="游戏模版" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="850" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-11" value="游戏api配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="850" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-12" value="move" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="890" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-13" value="turnRight" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="890" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RfujdPqhWs3596QnyuMz-14" value="显示在代码编辑区域&lt;br&gt;或者走前端配置map" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="855" width="135" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
