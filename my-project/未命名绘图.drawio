@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T11:21:40.042Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="zuyQD5plMry9IUAAZKml" version="22.1.11" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2023-12-22T01:38:07.293Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="aE4gkLyk2LyemaqCMsBp" version="22.1.11" type="github" pages="11">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2900,8 +2900,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="qalKWA76xL_kt-INR3gE" name="实时语音转文字">
-    <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="qalKWA76xL_kt-INR3gE" name="智能答疑">
+    <mxGraphModel dx="1468" dy="1971" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3323,6 +3323,41 @@
         </mxCell>
         <mxCell id="cPOGnjNktJeDlj8T65Kv-156" value="是否白名单场景&lt;br&gt;codeup单题、同步练习cpp题目" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1085" y="10" width="130" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-162" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cPOGnjNktJeDlj8T65Kv-160" target="cPOGnjNktJeDlj8T65Kv-161">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-164" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cPOGnjNktJeDlj8T65Kv-160" target="cPOGnjNktJeDlj8T65Kv-163">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-160" value="问题反馈组件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="20" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPOGnjNktJeDlj8T65Kv-161" target="cPOGnjNktJeDlj8T65Kv-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-161" value="好的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="113" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-168" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cPOGnjNktJeDlj8T65Kv-163" target="cPOGnjNktJeDlj8T65Kv-166">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3005" y="170" />
+              <mxPoint x="2930" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-163" value="不好" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2960" y="113" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cPOGnjNktJeDlj8T65Kv-166" target="cPOGnjNktJeDlj8T65Kv-169">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-166" value="调用接口更新进度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2880" y="188" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cPOGnjNktJeDlj8T65Kv-169" value="问题提问控制组件&lt;br&gt;数据驱动更新" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2870" y="270" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
