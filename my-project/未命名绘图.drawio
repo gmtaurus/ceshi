@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:14:03.850Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="KBP5WzuWeHUziibTPbVy" version="24.4.13" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:25:54.121Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="wpzpQz2fAibd6oxWTXb_" version="24.4.13" type="github" pages="13">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3665,24 +3665,24 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-1" value="业务数据处理层" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="359" y="140" width="110" height="40" as="geometry" />
+          <mxGeometry x="330" y="140" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-2" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;gameHomeView&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="130" y="145" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-3" value="游戏编译器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="280" width="220" height="40" as="geometry" />
+          <mxGeometry x="260" y="280" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_xnQhgR7rsWbMnmeYg5k-4" value="游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="320" width="110" height="40" as="geometry" />
+        <mxCell id="_xnQhgR7rsWbMnmeYg5k-4" value="关卡游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="320" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-5" value="c++编译器" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="420" y="320" width="110" height="40" as="geometry" />
+          <mxGeometry x="490" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_xnQhgR7rsWbMnmeYg5k-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.318;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="_xnQhgR7rsWbMnmeYg5k-3">
+        <mxCell id="_xnQhgR7rsWbMnmeYg5k-6" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xnQhgR7rsWbMnmeYg5k-1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="380" y="180" as="sourcePoint" />
-            <mxPoint x="380" y="210" as="targetPoint" />
+            <mxPoint x="370" y="277" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-7" value="游戏数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_xnQhgR7rsWbMnmeYg5k-6">
@@ -3719,6 +3719,30 @@
             <mxGeometry x="530" y="175" width="180" height="20" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="_xnQhgR7rsWbMnmeYg5k-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="20" height="70" as="geometry" />
+        </mxCell>
+        <UserObject label="代码编译执行（不依赖游戏）" placeholders="1" id="_xnQhgR7rsWbMnmeYg5k-16">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="630" y="300" width="180" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_xnQhgR7rsWbMnmeYg5k-17" value="游戏通信&lt;div&gt;游戏引擎&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="终端信息输出" placeholders="1" id="_xnQhgR7rsWbMnmeYg5k-18">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="630" y="330" width="180" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="题目信息等题目相关" placeholders="1" id="_xnQhgR7rsWbMnmeYg5k-20">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="630" y="360" width="180" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="_xnQhgR7rsWbMnmeYg5k-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="20" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
