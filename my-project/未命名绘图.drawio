@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-05T07:32:32.944Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="myxxLk817g6jnQ8wsQoh" version="24.4.13" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2024-06-05T07:35:04.060Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jZUTw-Pi0Chk9h-geGQs" version="24.4.13" type="github" pages="13">
   <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
     <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3749,7 +3749,7 @@
           </mxCell>
         </UserObject>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-23" value="关卡游戏" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="420" width="110" height="40" as="geometry" />
+          <mxGeometry x="260" y="420" width="110" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-24" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="_xnQhgR7rsWbMnmeYg5k-3" target="_xnQhgR7rsWbMnmeYg5k-1">
           <mxGeometry width="100" height="100" relative="1" as="geometry">
@@ -3767,17 +3767,14 @@
             <mxGeometry x="100" y="430" width="120" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="_xnQhgR7rsWbMnmeYg5k-27" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
-          <mxGeometry x="305" y="330" width="20" height="320" as="geometry" />
-        </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-30" value="游戏模型&lt;div&gt;森林&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="510" width="110" height="40" as="geometry" />
+          <mxGeometry x="260" y="490" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-31" value="游戏模型&lt;div&gt;飞船&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="510" width="110" height="40" as="geometry" />
+          <mxGeometry x="260" y="530" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_xnQhgR7rsWbMnmeYg5k-32" value="游戏模型&lt;div&gt;其他&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="390" y="510" width="110" height="40" as="geometry" />
+          <mxGeometry x="260" y="570" width="110" height="40" as="geometry" />
         </mxCell>
         <UserObject label="其他" placeholders="1" id="_xnQhgR7rsWbMnmeYg5k-33">
           <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
