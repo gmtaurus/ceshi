@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6" pages="15">
-  <diagram id="fv1hofxdrX45e26Dz7xj" name="mqtt 通信">
-    <mxGraphModel dx="954" dy="1690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="15">
+  <diagram id="fv1hofxdrX45e26Dz7xj" name="代码同步-mqtt">
+    <mxGraphModel dx="954" dy="1683" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4095,11 +4095,20 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="u6V8XLLsgBy018Y7VbVd" name="硬件资源上传">
-    <mxGraphModel dx="954" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="u6V8XLLsgBy018Y7VbVd" name="小喵新硬件-设备服务发现">
+    <mxGraphModel dx="954" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-l20gzzzxCb4sL-se7Cb-1" value="通过用户id + 设备标识获取设备列表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l20gzzzxCb4sL-se7Cb-2" value="mqtt 与服务器建联" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="585" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-l20gzzzxCb4sL-se7Cb-4" value="设备服务发现" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="555" width="100" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
