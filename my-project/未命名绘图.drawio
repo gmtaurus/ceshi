@@ -4516,7 +4516,7 @@
         <mxCell id="5twNe4vp4BEi9XKgv9aN-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5twNe4vp4BEi9XKgv9aN-4" target="5twNe4vp4BEi9XKgv9aN-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5twNe4vp4BEi9XKgv9aN-4" value="&lt;div&gt;发起对话&lt;/div&gt;sendmessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="5twNe4vp4BEi9XKgv9aN-4" value="&lt;div&gt;对话 id&lt;/div&gt;sendmessage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="355" y="610" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5twNe4vp4BEi9XKgv9aN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5twNe4vp4BEi9XKgv9aN-7" target="5twNe4vp4BEi9XKgv9aN-3">
