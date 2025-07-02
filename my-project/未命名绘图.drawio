@@ -1346,6 +1346,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FV8aSlW8DtdOssM3__TG-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="SVaqhudx8VpyLuZEsNvD-7" target="FV8aSlW8DtdOssM3__TG-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FV8aSlW8DtdOssM3__TG-7" value="200" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FV8aSlW8DtdOssM3__TG-6">
+          <mxGeometry x="-0.4875" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SVaqhudx8VpyLuZEsNvD-7" value="dify 服务接口" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-750" y="220" width="120" height="60" as="geometry" />
         </mxCell>
@@ -1354,6 +1362,9 @@
         </mxCell>
         <mxCell id="FV8aSlW8DtdOssM3__TG-2" value="页面reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-270" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FV8aSlW8DtdOssM3__TG-5" value="正常访问" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-590" y="470" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
