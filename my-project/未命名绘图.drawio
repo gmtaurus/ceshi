@@ -4187,23 +4187,8 @@
             <mxPoint x="1366" y="520" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QbQla_CEDHg5H6AlP4Kf-65" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="160" y="2300" width="980" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="QbQla_CEDHg5H6AlP4Kf-59" value="scratch-vm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-65">
-          <mxGeometry width="980.0000000000001" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QbQla_CEDHg5H6AlP4Kf-60" value="连接管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-65">
-          <mxGeometry y="60" width="319.5652173913044" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QbQla_CEDHg5H6AlP4Kf-61" value="指令翻译" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-65">
-          <mxGeometry x="617.8260869565217" y="60" width="362.1739130434783" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="QbQla_CEDHg5H6AlP4Kf-62" value="指令发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-65">
-          <mxGeometry x="319.5652173913044" y="60" width="298.26086956521743" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-67" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="160" y="2180" width="360" height="120" as="geometry" />
+          <mxGeometry x="150" y="2270" width="360" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-57" value="scratch-gui" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=none;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-67">
           <mxGeometry width="360" height="60" as="geometry" />
@@ -4212,19 +4197,34 @@
           <mxGeometry y="60" width="360" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-58" value="python-gui" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2180" width="309.99999999999994" height="60" as="geometry" />
+          <mxGeometry x="510" y="2270" width="309.99999999999994" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-64" value="vue框架" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="520" y="2240" width="309.99999999999994" height="60" as="geometry" />
+          <mxGeometry x="510" y="2330" width="309.99999999999994" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-70" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="827" y="2180" width="313" height="120" as="geometry" />
+          <mxGeometry x="817" y="2270" width="313" height="120" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-68" value="其他编译器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=none;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-70">
           <mxGeometry width="312.99999999999994" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QbQla_CEDHg5H6AlP4Kf-69" value="任意技术框架" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=none;fontColor=#000000;" vertex="1" parent="QbQla_CEDHg5H6AlP4Kf-70">
           <mxGeometry y="60" width="312.99999999999994" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbQla_CEDHg5H6AlP4Kf-60" value="连接管理" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2510" width="319.5652173913044" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbQla_CEDHg5H6AlP4Kf-61" value="离线指令翻译" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="767.83" y="2450" width="362.17" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QbQla_CEDHg5H6AlP4Kf-62" value="指令发送" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="469.5652173913044" y="2510" width="298.26086956521743" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbQla_CEDHg5H6AlP4Kf-59" value="scratch-vm" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2390" width="980.0000000000001" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QbQla_CEDHg5H6AlP4Kf-73" value="scratch-vm-connect-manager" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f9f7ed;strokeColor=#FFD966;" vertex="1" parent="1">
+          <mxGeometry x="150" y="2450" width="620" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
