@@ -5168,7 +5168,7 @@
           <mxGeometry x="260" y="202.87" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0QosAt0gts_2zOnifni8-19" value="完善信息" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="447" y="204" width="60" height="30" as="geometry" />
+          <mxGeometry x="446" y="204" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0QosAt0gts_2zOnifni8-21" value="单词列表页" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="247" y="570" width="80" height="30" as="geometry" />
